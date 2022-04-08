@@ -1,0 +1,19 @@
+06/04/2020:
+Model developed by Anne-Morwenn Pastier and Laurent Husson, chronologically hosted by LPG Nantes-France; ISTerre, Grenoble-France; M2C, Rouen-France.
+
+
+Dependencies:
+- gfortran
+- gmt5.1
+
+To run the model (possibly with loops on parameters):
+
+- Untar the archive in a dedicated directory
+- Give permission to execute the scripts: sudo chmod +x *.sh makefile
+- Change inputs in loops_REEF.sh (version 200531):
+	- Simulation parameters (l 11 to 16) for a single simulation or uncomment the loops on the parameters
+	- path = Absolute path to save the model outputs (l20) (All directories must already exist until umoy excluded)
+
+- Run loops-Reef.sh
+
+
