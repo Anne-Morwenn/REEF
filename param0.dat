@@ -1,0 +1,12 @@
+./SLcurves/waelbroeck2002.dat ! RSL variations file
+03 ! Slope (%)
+07 ! Maximum reef growth rate (mm/yr)
+50 ! Maximum reef growth depth (m)
+1 ! Optimal depth for vertical gradient (m)
+2 ! Optimal depth for horizontal gradient (m)
+3 ! Maximum depth for wave erosion (m)
+-0.30 ! Uplift rate (mm/yr)
+50 ! Eroded volume (mm3/yr)
+1000 ! Temporal increment (yr)
+.true. ! Reef construction or not ?
+.true. ! Wave erosion or not ?
